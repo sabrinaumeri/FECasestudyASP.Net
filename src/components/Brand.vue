@@ -24,12 +24,12 @@ placeholder="Select Brand"
  <template #body="slotProps" >
  <img
  :src="`${slotProps.data.graphicName}`"
- :alt="slotProps.data.productName"
+ :alt="slotProps.data.ProductName"
  class="product-image"
  />
  </template>
  </Column>
- <Column field="description" header="Select an Item"></Column>
+ <Column field="productName" header="Product Name"></Column>
  </DataTable>
  </div>
 
