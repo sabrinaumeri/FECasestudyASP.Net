@@ -8,8 +8,7 @@ new Date().getFullYear()
 </div>
 </div>
 </template>
-<script setup>
-import Brand from './components/Brand.vue'
+
 </script>
 <style>
 #app {
